@@ -1,7 +1,12 @@
 package com.game;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.Arrays;
 
+@Getter
+@Setter
 public class TicTacToe {
     private String[] cells;
     private boolean isGameFinished;
@@ -31,27 +36,11 @@ public class TicTacToe {
         return this.cells[index].equals(" ");
     }
 
-    public String[] getCells() {
-        return cells;
-    }
-
-    public void setCells(String[] cells) {
-        this.cells = cells;
-    }
-
     public boolean isGameFinished() {
         return isGameFinished;
     }
 
     public void setGameFinished(boolean gameFinished) {
         isGameFinished = gameFinished;
-    }
-
-    public String getCurrentPlayer() {
-        return currentPlayer;
-    }
-
-    public void setCurrentPlayer(String currentPlayer) {
-        this.currentPlayer = currentPlayer;
     }
 }

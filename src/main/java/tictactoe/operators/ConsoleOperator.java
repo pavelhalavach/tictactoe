@@ -1,9 +1,9 @@
-package com.operators;
+package tictactoe.operators;
 
-import com.game.TicTacToe;
-import com.players.ComputerPlayer;
-import com.players.HumanPlayer;
-import com.players.Player;
+import tictactoe.game.TicTacToe;
+import tictactoe.players.ComputerPlayer;
+import tictactoe.players.HumanPlayer;
+import tictactoe.players.Player;
 
 import java.util.Scanner;
 

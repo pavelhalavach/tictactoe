@@ -1,6 +1,6 @@
-package com.operators;
+package tictactoe.operators;
 
-import com.game.TicTacToe;
+import tictactoe.game.TicTacToe;
 
 import java.util.*;
 

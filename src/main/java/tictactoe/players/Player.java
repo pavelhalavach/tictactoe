@@ -1,6 +1,6 @@
-package com.players;
+package tictactoe.players;
 
-import com.game.TicTacToe;
+import tictactoe.game.TicTacToe;
 
 public interface Player {
     int chooseCell(TicTacToe ttt);

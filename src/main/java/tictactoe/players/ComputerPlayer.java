@@ -1,6 +1,6 @@
-package com.players;
+package tictactoe.players;
 
-import com.game.TicTacToe;
+import tictactoe.game.TicTacToe;
 
 import java.util.Random;
 

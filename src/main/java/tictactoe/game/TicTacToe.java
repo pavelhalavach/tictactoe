@@ -1,4 +1,4 @@
-package com.game;
+package tictactoe.game;
 
 import lombok.Getter;
 import lombok.Setter;

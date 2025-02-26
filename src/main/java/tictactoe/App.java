@@ -1,9 +1,9 @@
-package com;
+package tictactoe;
 
-import com.game.TicTacToe;
-import com.operators.ConsoleOperator;
-import com.operators.TicTacToeOperator;
-import com.players.Player;
+import tictactoe.game.TicTacToe;
+import tictactoe.operators.ConsoleOperator;
+import tictactoe.operators.TicTacToeOperator;
+import tictactoe.players.Player;
 
 
 public class App 

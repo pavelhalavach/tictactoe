@@ -12,15 +12,16 @@ public class HumanPlayer implements Player{
         while (true){
             try {
                 int index = Integer.parseInt(scanner.nextLine());;
-                if (index >= 0 && index < 9 && ttt.isCellEmpty(index)){
-                    return index;
+                if (index >= 0 && index <= 8){
+                    if (ttt.isCellEmpty(index)) {
+                        return index;
+                    } else {
+                        System.out.println("The cell is already taken");
+                    }
                 }
-                if (!ttt.isCellEmpty(index)){
-                    System.out.println("The cell is already taken");
-                }
-                System.out.print("Please enter the number of the cell from 0 to 8: ");
+                System.out.print("Something went wrong. Please enter the number of the cell from 0 to 8: ");
             } catch (NumberFormatException e){
-                System.out.println("Please enter the number of the cell from 0 to 8: ");
+                System.out.println("Something went wrong. Please enter the number of the cell from 0 to 8: ");
             }
         }
     }
